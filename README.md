@@ -17,7 +17,7 @@
 在此之前请安装 `xtools` 以方便以后的操作：
 
 ```
-# xbps-install -S xtools
+$ xbps-install -S xtools
 ```
 
 请先克隆 `xbps_src`：
