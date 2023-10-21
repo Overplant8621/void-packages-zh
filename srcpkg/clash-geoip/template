@@ -4,7 +4,7 @@ version=20231012
 revision=1
 short_desc="GeoLite2 data created by MaxMind"
 maintainer="xiarenfan <xiarenfan1998@onionmail.com>"
-license="custom:Hugware"
+license="custom:eula"
 makedepends="wget"
 homepage="https://github.com/Dreamacro/maxmind-geoip"
 
