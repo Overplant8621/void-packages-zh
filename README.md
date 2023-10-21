@@ -35,7 +35,7 @@ git clone https://hub.nuaa.cf/void-linux/void-packages.git
 再克隆此仓库：
 
 ```
-git clone https://github.com/voidlinux-zh-association/void-packages-zh
+git clone https://github.com/Overplant8621/void-packages-zh
 ```
 
 然后选择软件包进行编译：
