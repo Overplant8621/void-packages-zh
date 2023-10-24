@@ -1,0 +1,17 @@
+# Template file for 'clash-geoip'
+pkgname=clash-geoip
+version=20231012
+revision=1
+short_desc="GeoLite2 data created by MaxMind"
+maintainer="xiarenfan <xiarenfan1998@onionmail.com>"
+license="custom:eula"
+makedepends="wget"
+homepage="https://github.com/Dreamacro/maxmind-geoip"
+
+do_fetch() {
+    wget ${homepage}/releases/download/${version}/Country.mmdb
+}
+
+do_install() {
+    vinstall "${XBPS_BUILDDIR}/Country.mmdb" 0644 etc/clash/Country.mmdb
+}
