@@ -52,7 +52,7 @@ cd void-packages
 编译完了，就可以安装了：
 
 ```
-sudo xi {软件包名字} #确保是在 void-packages 目录中
+xi {软件包名字} #确保是在 void-packages 目录中
 ```
 
 # 其他资源

@@ -8,12 +8,13 @@ license="IPA Font License"
 makedepends="wget"
 homepage="https://github.com/ichitenfont/I.Ming"
 
-font_dirs="/usr/share/fonts"
+font_dirs="/usr/share/fonts/TTF"
 
 do_fetch() {
     wget ${homepage}/blob/master/${version}/I.Ming-${version}.ttf
 }
 
 do_install() { 
-    vcopy  ${XBPS_BUILDDIR}/I.Ming-${version}.ttf usr/share/fonts 
+    vmkdir usr/share/fonts/TTF
+    vcopy  ${XBPS_BUILDDIR}/I.Ming-${version}.ttf usr/share/fonts/TTF 
 }
